@@ -65,8 +65,8 @@ github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINE
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/spf13/cast v1.3.1/go.mod h1:Qx5cxh0v+4UWYiBimWS+eyWzqEqokIECu5etghLkUJE=
-github.com/stefanitsky/gachinator v1.0.1-0.20220222184144-db4ab1437e5d h1:Pe5bE0PnevfGYKJfdkN46vu3j+CGGMGyoFjMayIh5Oo=
-github.com/stefanitsky/gachinator v1.0.1-0.20220222184144-db4ab1437e5d/go.mod h1:W4qJeMoTqtyh2r5irKkQ1M6RpDt/kHpVaR/hXRnKSsc=
+github.com/stefanitsky/gachinator v1.0.1-0.20220226074258-4b40fb8237ea h1:8leIlklG+/4A82vecSHhrSuvCk5o6yuNI/HEAwgN+0c=
+github.com/stefanitsky/gachinator v1.0.1-0.20220226074258-4b40fb8237ea/go.mod h1:W4qJeMoTqtyh2r5irKkQ1M6RpDt/kHpVaR/hXRnKSsc=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
 github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=

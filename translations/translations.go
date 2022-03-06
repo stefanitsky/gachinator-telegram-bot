@@ -8,9 +8,8 @@ type translations map[messageType]translation
 var (
 	Welcome        messageType = 0
 	Error          messageType = 1
-	SelectRussian  messageType = 2
-	SelectEnglish  messageType = 3
-	SelectLangMenu messageType = 4
+	SelectNewLang  messageType = 2
+	SelectLangMenu messageType = 3
 )
 
 var (
@@ -22,15 +21,13 @@ var (
 	russianMessages = translations{
 		Welcome:        "Привет! Тебе был установлен русский язык. Для смены языка введи команду /lang.",
 		Error:          "Ой, произошла ошибка, пожалуйста, попробуйте еще раз.",
-		SelectRussian:  "Установлен русский язык.",
-		SelectEnglish:  "Установлен английский язык.",
+		SelectNewLang:  "Язык изменен.",
 		SelectLangMenu: "Выберите язык...",
 	}
 	englishMessages = translations{
 		Welcome:        "Hello! Default language is set to english. To change type /lang command.",
 		Error:          "Oops, an error occurred, please, try again later...",
-		SelectRussian:  "Russian language is set.",
-		SelectEnglish:  "English language is set.",
+		SelectNewLang:  "Language is changed.",
 		SelectLangMenu: "Select a language...",
 	}
 )
@@ -39,6 +36,8 @@ var langCodeToTranslations = map[LangCode]translations{
 	Russian: russianMessages,
 	English: englishMessages,
 }
+
+var DefaultLangCode = Russian
 
 // GetMessage returns localized error message for a specified language code
 func GetMessage(mt messageType, lc LangCode) string {
